@@ -2,7 +2,7 @@
 
 _iso-8859-7_ is a robust JavaScript implementation of [the iso-8859-7 character encoding as defined by the Encoding Standard](http://encoding.spec.whatwg.org/#iso-8859-7).
 
-This encoding is known under the following names: csisolatingreek, ecma-118, elot_928, greek, greek8, iso-8859-7, iso-ir-126, iso8859-7, iso88597, iso_8859-7, iso_8859-7:1987, sun_eu_greek, and sun_eu_greek.
+This encoding is known under the following names: csisolatingreek, ecma-118, elot_928, greek, greek8, iso-8859-7, iso-ir-126, iso8859-7, iso88597, iso_8859-7, iso_8859-7:1987, and sun_eu_greek.
 
 ## Installation
 
