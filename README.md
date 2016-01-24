@@ -1,6 +1,6 @@
 # iso-8859-7 [![Build status](https://travis-ci.org/mathiasbynens/iso-8859-7.svg?branch=master)](https://travis-ci.org/mathiasbynens/iso-8859-7) [![Code coverage status](https://coveralls.io/repos/mathiasbynens/iso-8859-7/badge.svg)](https://coveralls.io/r/mathiasbynens/iso-8859-7) [![Dependency status](https://gemnasium.com/mathiasbynens/iso-8859-7.svg)](https://gemnasium.com/mathiasbynens/iso-8859-7)
 
-_iso-8859-7_ is a robust JavaScript implementation of [the iso-8859-7 character encoding as defined by the Encoding Standard](http://encoding.spec.whatwg.org/#iso-8859-7).
+_iso-8859-7_ is a robust JavaScript implementation of [the iso-8859-7 character encoding as defined by the Encoding Standard](https://encoding.spec.whatwg.org/#iso-8859-7).
 
 This encoding is known under the following names: csisolatingreek, ecma-118, elot_928, greek, greek8, iso-8859-7, iso-ir-126, iso8859-7, iso88597, iso_8859-7, iso_8859-7:1987, and sun_eu_greek.
 
@@ -36,7 +36,7 @@ In [Node.js](https://nodejs.org/), [io.js](https://iojs.org/), [Narwhal](http://
 var iso88597 = require('iso-8859-7');
 ```
 
-In [Rhino](http://www.mozilla.org/rhino/):
+In [Rhino](https://www.mozilla.org/rhino/):
 
 ```js
 load('iso88597.js');
@@ -66,7 +66,7 @@ A string representing the semantic version number.
 
 ### `iso88597.labels`
 
-An array of strings, each representing a [label](http://encoding.spec.whatwg.org/#label) for this encoding.
+An array of strings, each representing a [label](https://encoding.spec.whatwg.org/#label) for this encoding.
 
 ### `iso88597.encode(input, options)`
 
@@ -76,7 +76,7 @@ This function takes a plain text string (the `input` parameter) and encodes it a
 var encodedData = iso88597.encode(text);
 ```
 
-The optional `options` object and its `mode` property can be used to set the [error mode](http://encoding.spec.whatwg.org/#error-mode). For encoding, the error mode can be `'fatal'` (the default) or `'html'`.
+The optional `options` object and its `mode` property can be used to set the [error mode](https://encoding.spec.whatwg.org/#error-mode). For encoding, the error mode can be `'fatal'` (the default) or `'html'`.
 
 ```js
 var encodedData = iso88597.encode(text, {
@@ -94,7 +94,7 @@ This function takes a byte string (the `input` parameter) and decodes it accordi
 var text = iso88597.decode(encodedData);
 ```
 
-The optional `options` object and its `mode` property can be used to set the [error mode](http://encoding.spec.whatwg.org/#error-mode). For decoding, the error mode can be `'replacement'` (the default) or `'fatal'`.
+The optional `options` object and its `mode` property can be used to set the [error mode](https://encoding.spec.whatwg.org/#error-mode). For decoding, the error mode can be `'replacement'` (the default) or `'fatal'`.
 
 ```js
 var text = iso88597.decode(encodedData, {
@@ -106,7 +106,7 @@ var text = iso88597.decode(encodedData, {
 
 ## Support
 
-_iso-8859-7_ is designed to work in at least Node.js v0.10.0, io.js v1.0.0, Narwhal 0.3.2, RingoJS 0.8-0.11, PhantomJS 1.9.0, Rhino 1.7RC4, as well as old and modern versions of Chrome, Firefox, Safari, Opera, and Internet Explorer.
+_iso-8859-7_ is designed to work in at least Node.js v0.10.0, io.js v1.0.0, Narwhal 0.3.2, RingoJS 0.8-0.11, PhantomJS 1.9.0, Rhino 1.7RC4, as well as old and modern versions of Chrome, Firefox, Safari, Opera, Edge, and Internet Explorer.
 
 ## Unit tests & code coverage
 
