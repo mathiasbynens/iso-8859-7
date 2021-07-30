@@ -1,4 +1,4 @@
-/*! https://mths.be/iso-8859-7 v1.0.1 by @mathias | MIT license */
+/*! https://mths.be/iso-8859-7 v1.0.2 by @mathias | MIT license */
 ;(function() {
 
 	var object = {};
@@ -113,7 +113,7 @@
 			'iso_8859-7:1987',
 			'sun_eu_greek'
 		],
-		version: '1.0.1',
+		version: '1.0.2',
 	};
 
 	module.exports = iso88597;
