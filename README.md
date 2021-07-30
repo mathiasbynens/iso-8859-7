@@ -1,4 +1,4 @@
-# iso-8859-7 [![iso-8859-7 on npm](https://img.shields.io/npm/v/iso-8859-7)](https://www.npmjs.com/package/iso-8859-7)
+# iso-8859-7 [![Build status](https://github.com/mathiasbynens/iso-8859-7/workflows/run-checks/badge.svg)](https://github.com/mathiasbynens/iso-8859-7/actions?query=workflow%3Arun-checks) [![iso-8859-7 on npm](https://img.shields.io/npm/v/iso-8859-7)](https://www.npmjs.com/package/iso-8859-7)
 
 _iso-8859-7_ is a robust JavaScript implementation of [the iso-8859-7 character encoding as defined by the Encoding Standard](https://encoding.spec.whatwg.org/#iso-8859-7).
 
