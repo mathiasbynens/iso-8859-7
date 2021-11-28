@@ -37,8 +37,10 @@
 	"bugs": "https://github.com/mathiasbynens/iso-8859-7/issues",
 	"files": [
 		"LICENSE-MIT.txt",
-		"iso-8859-7.mjs"
+		"iso-8859-7.mjs",
+		"iso-8859-7.d.ts"
 	],
+	"types": "iso-8859-7.d.ts",
 	"scripts": {
 		"download": "curl https://encoding.spec.whatwg.org/index-iso-8859-7.txt > data/index.txt",
 		"build": "node scripts/transform-data.js",
